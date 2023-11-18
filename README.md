@@ -203,7 +203,7 @@
 
 # 결과 이미지
 🔹메인페이지🔹
-![메인](https://github.com/sedoll/team_pro3/assets/132269367/050cf1ea-1c1f-4806-893d-9cba0981a0f1)
+![메인](/output/결과이미지/메인.png)
 🔹term🔹
 ![term](https://github.com/sedoll/team_pro3/assets/132269367/d597a8fb-0e77-47e0-bb88-e7363a0a9181)
 🔹join🔹

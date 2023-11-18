@@ -104,14 +104,18 @@
                 <form action="${path}/member/join.do" method="post" class="frm">
                     <div>
                         <ul class="join_type">
-                            <li>
-                                <img class="profile" src="/img/boy.png" alt="">
-                                <input type="radio" name="job" value="1" id="stu" checked>
+                            <li class="frontfile">
+                                <figure class="image front" style="width: 300px; height: 300px">
+                                    <img class="is-rounded" src="${path}/resources/img/mother2.png" alt="학부모">
+                                </figure>
+                                <input type="radio" name="job" value="1" id="stu" checked class="term-radio1">
                                 <label for="stu">학부모</label><br>
                             </li>
-                            <li>
-                                <img class="profile" src="/img/teacher.png" alt="">
-                                <input type="radio" name="job" value="2" id="tea">
+                            <li class="beforefile">
+                                <figure class="image before" style="width: 300px; height: 300px">
+                                    <img class="is-rounded" src="${path}/resources/img/teacher_icon2.png" alt="교사">
+                                </figure>
+                                <input type="radio" name="job" value="2" id="tea" class="term-radio2">
                                 <label for="tea">교사</label><br>
                             </li>
                         </ul>
@@ -127,5 +131,16 @@
     <footer class="ft" id="ft">
         <%@ include file="../include/footer.jsp" %>
     </footer>
+    <script>
+        $('#stu').hover(
+            function(){$('.front').css({'border' : '2px solid #0a0a0a'}); },
+            function (){$('.front').css({'border' : '2px solid #dddddd'});}
+        );
+
+        $('#tea').hover(
+            function(){$('.before').css({'border' : '2px solid #0a0a0a'}); },
+            function (){$('.before').css({'border' : '2px solid #dddddd'});}
+        );
+    </script>
 </body>
 </html>

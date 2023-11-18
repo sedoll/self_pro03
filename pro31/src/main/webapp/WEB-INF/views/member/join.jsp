@@ -329,7 +329,7 @@
 
                 <div class="join_form">
                     <div class="header">
-                        <img src="${path}/img/logo_48.png" />
+                        <img src="${path}/img/logo-48x48.png" />
                         <h2>회원가입</h2>
                     </div>
 
